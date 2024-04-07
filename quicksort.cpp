@@ -43,13 +43,3 @@ void qsort(std::vector<int>& vec)
 	}
 	vec = uni;
 }
-
-int main()
-{
-
-	std::vector<int> myVec{ 1, 2148};
-
-	qsort(myVec);
-
-	return 0;
-}
